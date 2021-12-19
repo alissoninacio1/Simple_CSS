@@ -1,0 +1,153 @@
+body {
+margin: 0;
+text-align: center;  /* Textt-align will center everything inside that doesn't have a width set, if  it has an width set, use margin*/
+font-family: 'Merriweather', serif;
+}
+
+/*px- pixels are not dinamic size, are static, so they does not change when resizing the page(zoom)
+em- is a dinamic font-size 
+1em = 16px = 100% 
+em - it has influence from the parent elements which means that, if you set a font
+size to the parent element with em, this will multiply the child font-size */
+
+/* rem - refers to the root em and ignores all of the parent settings
+
+the recomendation is to use rem to size the web site
+1em = 1rem*/
+
+h1 {
+    color: #66bfbf; 
+    font-size: 5.625rem;
+    line-height: 2;
+    margin: 50px auto 0 auto; /*width: 10%; the auto value when applied will center the element either vertically or horizontally margin: 0 auto ; this is shorthand to 0 auto 0 auto.... */
+    font-family: 'Sacramento', cursive;  /*cada vez que eu adiciono uma fonte do google eu preciso embutir(embedded) a fonte na página, ver index.html na tag head*/   
+}
+
+h2 {
+    color: #66BFBF;
+    font-size: 2.5rem; /* 40/16 = 2.5  because in almost every browser, 16px is the standard for proportional fonts*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+color: #11999E;
+}
+
+.top-container {
+background-color: #E4F9F5;
+position: relative; /*to position our bottom-cloud relative to something, we need to give to its parent a position set as relative, if don't, then it will be relative to the body*/
+padding-top: 100px;
+}
+
+
+/*to take out of the control flow, I need to use an absolute or static position. It will change the position property */
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+
+.screenImg {
+    width:25%;
+    float: left;
+    margin-right: 30px;
+}
+
+
+.handsImg {
+    width: 18%;
+    margin-left: 30px;
+    float: right;
+}
+
+.profile {
+    width: 25%;
+    margin: auto;
+}
+
+/* clear is a contrary of float
+only use float to wrapping positions and text (envolver)*/
+/* .description-par {
+    clear: left;
+}
+
+.description-right {
+    clear: right;
+} */
+
+a {
+    text-decoration: none;
+    line-height: 4;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bottom-container > a {
+    color: #11999E;
+    padding: 20px;
+}
+
+.bottom-container > p {
+    color: #EAF6F6;
+    padding: 30px;
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+hr {
+    width: 3%;
+    border-style: dotted none none none;
+    border-width: 5px;
+    border-color: rgb(167, 167, 167);
+    margin: 100px auto 60px auto;
+}
+ 

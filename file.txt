@@ -1,0 +1,16 @@
+1 - Site para pegar fontes se você quiser estar seguro de que elas sao usadas no pc: 
+    google fonts 
+    https://fonts.google.com/specimen/Montserrat?query=mont
+
+
+2 - flaticon.com - site para usar ícones gratis, tem milhares de ícones. 
+
+3 - para usar gifs gratis, você pode acessar - https://giphy.com/
+
+4 - site to resize images -  https://resizeimage.net/
+
+5 - sites to crop pictures are welcomed, this causes a photo or image is set on a circle. 
+
+6 - button generator in css  -   https://css3buttongenerator.com/      
+
+7 - sitio para prácticas de front-end - https://www.frontendmentor.io/
